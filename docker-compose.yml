@@ -8,7 +8,7 @@ services:
       - db_volume:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: flask_db
-      POSTGRES_USER: flask_user
+      POSTGRES_USER: thrall
       POSTGRES_PASSWORD: motherload123
 
   app:
@@ -21,7 +21,7 @@ services:
       - back-net
     environment:
       POSTGRES_DB: flask_db
-      POSTGRES_USER: flask_user
+      POSTGRES_USER: thrall
       POSTGRES_PASSWORD: motherload123
       DB_HOST: db
     depends_on:
