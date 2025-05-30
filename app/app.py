@@ -16,7 +16,7 @@ def get_conn():
 
 @app.route("/")
 def root():
-    return jsonify(message="Bom dia princesa")
+    return jsonify(message="world of warcraft mist of pandaria, 21 july")
 
 @app.route("/visitantes")
 def visitantes():
