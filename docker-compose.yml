@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_DB: flask_db
       POSTGRES_USER: flask_user
-      POSTGRES_PASSWORD: rato_branco
+      POSTGRES_PASSWORD: motherload123
 
   app:
     container_name: flask
@@ -22,7 +22,7 @@ services:
     environment:
       POSTGRES_DB: flask_db
       POSTGRES_USER: flask_user
-      POSTGRES_PASSWORD: rato_branco
+      POSTGRES_PASSWORD: motherload123
       DB_HOST: db
     depends_on:
       - db
